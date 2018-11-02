@@ -1,0 +1,13 @@
+Menu principal
+1) Nova Captura Online
+2) Carregar Captura de arquivo
+3) Sair
+
+Menu 2
+1) Apresentar os pacotes capturados em ordem crescente e decrescente de tamanho
+2) Contar quantos pacotes foram transferidos, classificando-os por tamanho (de 100 em 100 bytes).
+3) Apresentar a taxa de bits ao longo da captura
+4) Contar quantos fluxos existem na rede durante a captura
+5) Identificar os fluxos que mais transferiram dados durante a captura, apresentando-os por ordem de quantidade de bytes transferidos
+6) Apresentar periodicamente as taxas de bits por segundo (bps) ou bytes por segundo (Bps) para o tráfego amostrado. 
+7) Salvar captura no arquivo
