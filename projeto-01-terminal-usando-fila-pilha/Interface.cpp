@@ -33,22 +33,8 @@ void Interface::serveComandos() {
     while(1){
         cout << prompt;
         getline(cin, comando);
-        int pos = comando.find(' ');
-        string entrada = comando.substr(0, pos);
-        string nomevar = comando.substr(pos+1, '=');
-        if (entrada == "defvar"){
-        cout << "entrada foi defvar" << endl;
-        cout << "O nome da variável é: " << nomevar << endl;
-        }
-        string comandosalvo = comando.substr('=', );
-    
         executaComando(comando);
     }
-}
-
-void Interface::variavel() {
-    
-    
 }
 
 void Interface::executaComando(string comando) {

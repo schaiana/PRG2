@@ -33,7 +33,6 @@ private:
     int resultado; //se voltar zero, não teve erros
     
     void executaComando(string comando);
-    void variavel();
 };
 
 #endif /* INTERFACE_H */
